@@ -2,12 +2,10 @@
 <html lang = "en">  
 <head>  
     <link rel="stylesheet" href="style.css">
-<title>Calculator </title>  
-  
-  
+	<title>Calculator </title>  
 </head>  
 <body>  
-
+<marquee id="m" behavior="scroll" scrollamount="20" direction="right" width="100%" height="30px">Calculator by Abhishek Jha</marquee>
 <div class= "formstyle">  
 <form name = "form1">    
         
@@ -16,7 +14,7 @@
     <input id="b1" type = "button" value = "(" onclick = "form1.answer.value += '(' ">  
 	<input id="b2" type = "button" value = ")" onclick = "form1.answer.value += ')' ">  
 	<input id="del" type = "button" value = "Delete" onclick = "form1.answer.value=form1.answer.value.slice(0,-1)">  
-	<input type = "button" value = "%" onclick = "form1.answer.value += '%' ">  
+	<input id="mod" type = "button" value = "%" onclick = "form1.answer.value += '%' ">  
 	<br><br>
 
 	<input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
@@ -31,9 +29,9 @@
 	<input id="sub" type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
 	<br><br>  
     
-	<input type = "button" value = "1" onclick = "form1.answer.value += '7' ">  
-	<input type = "button" value = "2" onclick = "form1.answer.value += '8' ">  
-	<input type = "button" value = "3" onclick = "form1.answer.value += '9' ">  
+	<input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
+	<input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+	<input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
 	<input id="mul" type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
 	<br><br>  
     
