@@ -4,7 +4,7 @@
 	border: 3px solid black;  
     border-radius: 20px;  
     padding: 20px;   
-    font-size: large;
+    font-size: larger;
     text-decoration: double;
     display: inline-block;
     background-color: greenyellow;
@@ -14,8 +14,10 @@
 #m{
     font-size: xx-large;
     font-family: calc();
-    font-style: oblique;
+    font-style: italic;
     color: cyan;
+    text-transform: uppercase;
+
 }
 .formstyle  
 {  
@@ -88,12 +90,14 @@ input
     border-radius: 20px;  
     padding: 25px;
     padding: inline 10px;
-    margin: 7px;  
+    margin: 6px;
     font-size: 15px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
     background-color: aqua;
+    line-height: 15px;
     text-align: center;
+    font-size: larger;
     
 
     
